@@ -1,12 +1,27 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 25rem;
+    margin: 2rem auto;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+input, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    width: 8rem;
+    background: rgb(52, 205, 52);
+    color: white;
+    border: none;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
 }
