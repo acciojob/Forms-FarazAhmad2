@@ -21,7 +21,7 @@ const FormRef = () => {
   return (
     <Card>
       <h2>Form using Ref</h2>
-      <form id="form-ref-link" onSubmit={handleSubmit}>
+      <form id="info-form" onSubmit={handleSubmit}>
         <input
           id="full_name"
           type="text"

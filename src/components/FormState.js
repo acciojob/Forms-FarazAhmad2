@@ -25,7 +25,7 @@ const FormState = () => {
   return (
     <Card>
       <h2>Form using State</h2>
-      <form id="form-state-link" onSubmit={handleSubmit}>
+      <form id="info-form" onSubmit={handleSubmit}>
         <input
           id="full_name"
           type="text"
